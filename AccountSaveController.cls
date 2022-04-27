@@ -8,7 +8,7 @@ public class AccountSaveController {
         contactObj = new Contact();
     }	
 	public pagereference actSave(){
-		insert actObjst;
+		insert actObjs;
         oppObj.AccountId = actObj.Id;
         contactObj.AccountId = actObj.Id;
         insert contactObj;
