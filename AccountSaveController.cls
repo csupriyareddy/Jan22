@@ -8,11 +8,11 @@ public class AccountSaveController {
         contactObj = new Contact();
     }	
 	public pagereference actSave(){
-		insert actObjs;
+		insert actObj;
         oppObj.AccountId = actObj.Id;
         contactObj.AccountId = actObj.Id;
         insert contactObj;
         insert oppObj;
-		return new pagereference('/'+actObj.Id);	
+		return new pagereference('/ and'+actObj.Id);	
 	}
 }
