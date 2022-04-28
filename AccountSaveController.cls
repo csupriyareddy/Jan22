@@ -13,6 +13,6 @@ public class AccountSaveController {
         contactObj.AccountId = actObj.Id;
         insert contactObj;
         insert oppObj;
-		return new pagereference('/ and'+actObj.Id);	
+		return new pagereference('/'+actObj.Id);	
 	}
 }
